@@ -1,0 +1,383 @@
+@font-face {
+  font-family: 'Creattion Demo';
+  src: url('../images/signature-font.otf') format('opentype');
+}
+
+html {
+  overflow: hidden;
+  height: 100%;
+}
+
+body {
+  overflow: auto;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.godaddy_container {
+  font-family: 'Lato', sans-serif;
+  cursor: default;
+}
+
+.godaddy_header {
+  background-color: #d9f0ed;
+  /* padding: 15px;
+  padding-top: 35px; */
+  height: 73px;
+  font-family: 'Work Sans', sans-serif;
+}
+
+.godaddy_header_logo {
+  padding-left: 50px;
+}
+
+.godaddy_header_contact_us {
+  padding-top: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 300;
+  padding-right: 50px;
+}
+
+.godaddy_header_contact_us .text:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.chevron-down-custom-icon {
+  padding-left: 10px;
+  font-weight: 200;
+}
+
+.godaddy_header_navbar {
+  font-size: 16px;
+  opacity: 0.6;
+  display: flex;
+  flex-direction: row;
+  padding-right: 180px;
+}
+
+.godaddy_header_navbar_item {
+  padding-right: 20px;
+  padding-top: 10px;
+}
+
+.godaddy_header_navbar_item:hover {
+  text-decoration: underline;
+}
+
+.godaddy_footer {
+  padding: 30px 50px 30px 50px;
+  text-align: center;
+  font-size: 15px;
+  font-weight: 300;
+}
+
+.privacy-policy {
+  color: rgb(9, 117, 122);
+  text-decoration: underline;
+}
+
+.godaddy_content_navbar {
+  background-color: #d9f0ed;
+  padding: 30px 100px 20px 100px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.godaddy_content_navbar-items {
+  padding-top: 8px;
+  display: flex;
+  flex-direction: row;
+}
+
+.godaddy_content_navbar-item {
+  padding-right: 30px;
+  font-weight: 300;
+}
+
+.godaddy_content_navbar-item:hover {
+  color: #09757a;
+}
+
+.godaddy_content_navbar-item-1 {
+  color: #09757a;
+}
+
+.godaddy_content_navbar-button {
+  background-color: black;
+  color: white;
+}
+
+.godaddy_content_navbar-button {
+  border: 1px black;
+  display: inline-block;
+  border: none;
+  padding: 10px 20px 10px 20px;
+  margin: 0;
+  text-decoration: none;
+  background: black;
+  color: #ffffff;
+  font-family: sans-serif;
+  font-size: 1rem;
+  cursor: pointer;
+  text-align: center;
+  transition: background 250ms ease-in-out, transform 150ms ease;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+}
+
+.godaddy_content_navbar-button:hover,
+.godaddy_content_navbar-button:focus {
+  background: black;
+}
+
+.godaddy_content_navbar-button:focus {
+  outline: 1px solid #fff;
+  outline-offset: -4px;
+}
+
+.godaddy_content_navbar-button:active {
+  transform: scale(0.99);
+}
+
+.godaddy_content-ceo {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  background-color: #d9f0ed;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.godaddy_content-ceo-description {
+  /* padding-top: 100px;
+  padding-bottom: 100px; */
+  height: 320px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.godaddy_content-ceo-description-header {
+  font-weight: 300;
+  font-size: 25px;
+}
+
+.godaddy_content-ceo-description-text {
+  max-width: 500px;
+  font-size: 37px;
+  font-weight: bold;
+}
+
+.godaddy_content-ceo-description-sign {
+  font-size: 16px;
+  font-weight: 300;
+}
+
+.godaddy_content-ceo-photo {
+  padding-top: 100px;
+  padding-bottom: 100px;
+  position: relative;
+}
+
+.godaddy_content-ceo-photo-sign {
+  position: absolute;
+  top: 360px;
+  left: 50px;
+  font-family: 'Creattion Demo';
+  font-size: 30px;
+}
+
+.godaddy_content-ceo-photo-sign-2 {
+  padding-top: 30px;
+  font-family: 'Creattion Demo';
+  font-size: 30px;
+}
+
+/**/
+
+.godaddy_content-privacy {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  background-color: #fff;
+}
+
+.godaddy_content-privacy-description {
+  max-width: 480px;
+  height: 200px;
+  padding: 160px 0px 100px 0px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.godaddy_content-privacy-description-header {
+  font-size: 32px;
+  font-weight: bold;
+}
+
+.godaddy_content-privacy-description-text {
+  margin: 40px 0 40px 0;
+  line-height: 24px;
+  font-weight: 300;
+  font-size: 16px;
+}
+
+.godaddy_content-privacy-photo {
+  padding-top: 100px;
+  padding-bottom: 100px;
+  padding-left: 0px;
+}
+
+/**/
+
+.godaddy_content-security {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  background-color: #fceda9;
+}
+
+.godaddy_content-security-description {
+  max-width: 480px;
+  height: 200px;
+  padding: 160px 0px 100px 0px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.godaddy_content-security-description-header {
+  font-size: 32px;
+  font-weight: bold;
+}
+
+.godaddy_content-security-description-text {
+  margin: 20px 0 20px 0;
+  line-height: 24px;
+  font-weight: 300;
+  font-size: 16px;
+}
+
+.godaddy_content-security-photo {
+  width: 500px;
+  background: url('./assets/security-mobile-bg.png') no-repeat center center;
+  background-size: cover;
+}
+
+/**/
+
+.godaddy_content-compliance {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  background-color: #fff;
+}
+
+.godaddy_content-compliance-description {
+  max-width: 480px;
+  height: 200px;
+  padding: 160px 0px 100px 0px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.godaddy_content-compliance-description-header {
+  font-size: 32px;
+  font-weight: bold;
+}
+
+.godaddy_content-compliance-description-text {
+  margin: 40px 0 40px 0;
+  line-height: 24px;
+  font-weight: 300;
+  font-size: 16px;
+}
+
+.godaddy_content-compliance-photo {
+  padding-top: 100px;
+  padding-bottom: 100px;
+  padding-left: 0px;
+}
+
+/**/
+
+a {
+  color: inherit;
+  text-decoration: inherit;
+}
+
+.godaddy_content-ceo-message {
+  font-family: 'Lato', sans-serif;
+  margin: 0 auto;
+  width: 800px;
+}
+
+.godaddy_content-ceo-message-header {
+  text-align: center;
+  margin-top: 60px;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.godaddy_content-ceo-message-description {
+  margin-top: 40px;
+}
+
+.godaddy_content-ceo-message-description-item {
+  margin-top: 20px;
+  font-size: 16px;
+  font-weight: 300;
+}
+
+/**/
+
+.godaddy_content-guides {
+  display: flex;
+  flex-direction: row;
+  background-color: #ecf3fc;
+}
+
+.godaddy_content-guides-description {
+  max-width: 420px;
+  margin-top: 100px;
+  height: 200px;
+  padding: 160px 0px 100px 0px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.godaddy_content-guides-description-header {
+  font-size: 45px;
+  font-weight: 800;
+}
+
+.godaddy_content-guides-description-text {
+  margin: 20px 0 20px 0;
+  line-height: 24px;
+  font-weight: 300;
+  font-size: 16px;
+}
+
+.godaddy_content-guides-photo {
+  width: 50%;
+  padding-left: 0px;
+}
+
+.godaddy_content-call-us-back {
+  font-weight: 300;
+  font-size: 23px;
+  text-align: center;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  background-color: #00a4a6;
+  color: white;
+}

@@ -1,12 +1,19 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-
-// Route::get('/', function () {
-//     return view('welcome');
-// });
-
+use App\Http\Controllers\HomeController;
 use App\Http\Controllers\WelcomeController;
 
-Route::get('/', [WelcomeController::class, 'view']);
-Route::post('/', [WelcomeController::class, 'view']);
+
+//auth
+Route::get('/register', [HomeController::class, 'registerForm'])->name('register');
+Route::get('/login', [HomeController::class, 'loginForm'])->name('login');
+
+
+// front
+Route::get('/', function () {
+    return view('home.index');
+});
+
+Route::get('/about-us', [HomeController::class, 'about'])->name('about');
+Route::get('/contact-us', [HomeController::class, 'contact'])->name('contact');

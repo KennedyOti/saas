@@ -37,9 +37,8 @@
     </div>
 
     <script type="text/javascript">
-        // Optional: Customize toolbar actions for Import/Export
         $(document).ready(function() {
-            $('.ui-jqgrid .ui-jqgrid-titlebar-close').hide(); // Optional: Hide close button
+            $('.ui-jqgrid .ui-jqgrid-titlebar-close').hide(); 
         });
     </script>
 </body>

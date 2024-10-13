@@ -10,7 +10,7 @@ $dbPort = env("3306");
 $dbHost = env("DB_HOST", "127.0.0.1");
 $dbUser = env("DB_USERNAME", "root");
 $dbPass = env("DB_PASSWORD", "");
-$dbName = env("DB_DATABASE", "saas");
+$dbName = env("DB_DATABASE", "kennedy");
 
 if (empty($dbHost) || empty($dbUser) || empty($dbName)) {
     throw new InvalidArgumentException('Database configuration values cannot be empty.');

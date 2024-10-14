@@ -17,7 +17,6 @@
                 <i class="gg-more-vertical-alt"></i>
             </button>
         </div>
-        <!-- End Logo Header -->
     </div>
     <div class="sidebar-wrapper scrollbar scrollbar-inner">
         <div class="sidebar-content">
@@ -30,7 +29,7 @@
                     </a>
                     <div class="collapse" id="base">
                         <ul class="nav nav-collapse">
-                            <li>
+                            <li style="padding-left: 4em;">
                                 <a href="{{route('dashboard')}}">
                                     <span class="sub-item">Edit User</span>
                                 </a>
@@ -46,7 +45,7 @@
                     </a>
                     <div class="collapse" id="base">
                         <ul class="nav nav-collapse">
-                            <li>
+                            <li style="padding-left: 4em;">
                                 <a href="{{route('app.index')}}">
                                     <span class="sub-item">Create App</span>
                                 </a>

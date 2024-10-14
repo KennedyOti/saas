@@ -12,7 +12,7 @@ class AppsSeeder extends Seeder
     {
         DB::table('apps')->insert([
             [
-                'clientid' => 1,
+                'client_id' => 1,
                 'name' => 'Sample App',
                 'description' => 'This is a sample app description.',
                 'status' => 'private',
@@ -20,8 +20,32 @@ class AppsSeeder extends Seeder
                 'updated_at' => now(),
             ],
             [
-                'clientid' => 2,
-                'name' => 'Another App',
+                'client_id' => 2,
+                'name' => 'Another App 1',
+                'description' => 'This is another app description.',
+                'status' => 'private',
+                'created_at' => now(),
+                'updated_at' => now(),
+            ],
+            [
+                'client_id' => 3,
+                'name' => 'Another App 2',
+                'description' => 'This is another app description.',
+                'status' => 'private',
+                'created_at' => now(),
+                'updated_at' => now(),
+            ],
+            [
+                'client_id' => 4,
+                'name' => 'Another App 3',
+                'description' => 'This is another app description.',
+                'status' => 'private',
+                'created_at' => now(),
+                'updated_at' => now(),
+            ],
+            [
+                'client_id' => 5,
+                'name' => 'Another App 4',
                 'description' => 'This is another app description.',
                 'status' => 'private',
                 'created_at' => now(),

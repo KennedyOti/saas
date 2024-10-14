@@ -45,9 +45,9 @@
 
     <!-- JS Libraries -->
     <script src="{{ asset('assets/gridphp/jquery.min.js') }}"></script>
+    <script src="{{ asset('assets/gridphp/themes/jquery-ui.custom.min.js') }}"></script> <!-- Load jQuery UI first -->
     <script src="{{ asset('assets/gridphp/jqgrid/js/i18n/grid.locale-en.js') }}"></script>
     <script src="{{ asset('assets/gridphp/jqgrid/js/jquery.jqGrid.min.js') }}"></script>
-    <script src="{{ asset('assets/gridphp/themes/jquery-ui.custom.min.js') }}"></script>
 
     <!-- CSRF Token for Ajax calls -->
     <script type="text/javascript">
@@ -57,6 +57,11 @@
         }
     });
     </script>
+    <!-- Toastr JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.js"></script>
+    <!-- Toastr CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.css">
+
 </head>
 
 <body>
@@ -73,7 +78,6 @@
             @include('dashboard.partials.footer')
         </div>
     </div>
-    <script src="{{ asset('assets/user/js/core/jquery-3.7.1.min.js') }}"></script>
     <script src="{{ asset('assets/user/js/core/popper.min.js') }}"></script>
     <script src="{{ asset('assets/user/js/core/bootstrap.min.js') }}"></script>
     <script src="{{ asset('assets/user/js/plugin/jquery-scrollbar/jquery.scrollbar.min.js') }}"></script>

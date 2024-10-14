@@ -10,7 +10,7 @@ return new class extends Migration
     {
         Schema::create('apps', function (Blueprint $table) {
             $table->id();
-            $table->foreignId('clientid')->constrained('users');
+            $table->foreignId('client_id')->constrained('users');
             $table->string('name');
             $table->text('description')->nullable();
             $table->string('status')->default('private');

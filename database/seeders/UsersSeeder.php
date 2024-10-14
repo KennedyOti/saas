@@ -14,7 +14,7 @@ class UsersSeeder extends Seeder
     {
         DB::table('users')->insert([
             [
-                'name' => 'Admin',
+                'name' => 'admin',
                 'email' => 'admin@example.com',
                 'password' => Hash::make('password'),
                 'role' => 'admin',
@@ -22,13 +22,46 @@ class UsersSeeder extends Seeder
                 'updated_at' => now(),
             ],
             [
-                'name' => 'User',
-                'email' => 'client@example.com',
+                'name' => 'user1',
+                'email' => 'client1@example.com',
                 'password' => Hash::make('password'),
                 'role' => 'client',
                 'created_at' => now(),
                 'updated_at' => now(),
             ],
+            [
+                'name' => 'User2',
+                'email' => 'client2@example.com',
+                'password' => Hash::make('password'),
+                'role' => 'client',
+                'created_at' => now(),
+                'updated_at' => now(),
+            ],
+            [
+                'name' => 'User3',
+                'email' => 'client3@example.com',
+                'password' => Hash::make('password'),
+                'role' => 'client',
+                'created_at' => now(),
+                'updated_at' => now(),
+            ],
+            [
+                'name' => 'User4',
+                'email' => 'client4@example.com',
+                'password' => Hash::make('password'),
+                'role' => 'client',
+                'created_at' => now(),
+                'updated_at' => now(),
+            ],
+            [
+                'name' => 'User5',
+                'email' => 'client5@example.com',
+                'password' => Hash::make('password'),
+                'role' => 'client',
+                'created_at' => now(),
+                'updated_at' => now(),
+            ],
+
         ]);
     }
 }

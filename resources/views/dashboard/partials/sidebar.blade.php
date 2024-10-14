@@ -2,7 +2,7 @@
     <div class="sidebar-logo">
         <!-- Logo Header -->
         <div class="logo-header" data-background-color="dark">
-            <a href="index.html" class="logo">
+            <a href="{{route('dashboard')}}" class="logo">
                 <img src="{{asset('assets/user/img/kaiadmin/logo_light.svg')}}" alt="navbar brand" class="navbar-brand" height="20" />
             </a>
             <div class="nav-toggle">
@@ -22,11 +22,21 @@
     <div class="sidebar-wrapper scrollbar scrollbar-inner">
         <div class="sidebar-content">
             <ul class="nav nav-secondary">
-                <li class="nav-item active">
-                    <a data-bs-toggle="collapse" class="collapsed" aria-expanded="false">
-                        <i class="fas fa-home"></i>
-                        <p>Dashboard</p>
+                <li class="nav-item">
+                    <a data-bs-toggle="collapse" href="#base">
+                        <i class="fas fa-layer-group"></i>
+                        <p>User</p>
+                        <span class="caret"></span>
                     </a>
+                    <div class="collapse" id="base">
+                        <ul class="nav nav-collapse">
+                            <li>
+                                <a href="{{route('dashboard')}}">
+                                    <span class="sub-item">Edit User</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
                 </li>
                 <li class="nav-item">
                     <a data-bs-toggle="collapse" href="#base">
@@ -38,7 +48,7 @@
                         <ul class="nav nav-collapse">
                             <li>
                                 <a href="{{route('app.index')}}">
-                                    <span class="sub-item">Apps</span>
+                                    <span class="sub-item">Create App</span>
                                 </a>
                             </li>
                         </ul>
